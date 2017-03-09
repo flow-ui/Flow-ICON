@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="zh-cn">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=no">
+    <meta name="renderer" content="webkit">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+    <title>Flow-ICON</title>
+    <meta name="google-site-verification" content="SjjczL6NgmwBRTTTv54cEKARc3XU6b3JzUvDhTuIcRY" />
+    <meta content="Flow-ICON,Flow-UI,front-flow" name="Keywords">
+    <meta content="Flow-ICON是Flow-UI默认采用的图标库" name="Description">
+    <link href="/dist/favicon.ico" rel="icon">
+<link href="/dist/css/style.css" rel="stylesheet">
+<script type="text/javascript">
+	if(window.location.href.indexOf('https')===0){
+		document.write('<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />');
+	}
+</script>
+<!--[if lt IE 9]><script src="/dist/lib/H5shiv.js"></script><![endif]-->
+</head>
+<body>
+    <header class="icon-head">
+    <div class="wrap fix">
+        <h1>Flow-ICON</h1>
+        <p class="help">Flow-ICON是Flow-UI默认采用的图标库</p>
+    </div>
+</header>
+
+<p class="search">
+    <input id="search" type="search" placeholder="Search">
+    <i class="ion-ios-search"></i>
+</p>
+<ul id="icons" class="demo fix light">
+    <!-- view -->
+</ul>
+
+<div class="hide boxToView tc">
+    <div style="height:110px">
+    <div id="mycanvas"></div>
+    </div>
+    <form class="pannel">
+        <div class="form-group row">
+            <label class="span-2" for="filt_size">Size:</label>
+            <div class="span-7">
+                <input type="range" min="12" max="96" id="filt_size" data-code="48">
+            </div>
+            <div class="span-3">
+                <input type="text" id="size_val" disabled>
+                <label for="size_val">px</label>
+            </div>
+        </div>
+        <div class="form-group row">
+            <div class="span-2">
+                <label for="filt_color">Color:</label>
+            </div>
+            <div class="span-3">
+                <input type="color" id="filt_color" >
+            </div>
+        </div>
+    </form>
+    <div class="acts">
+        <button id="_download">下载PNG</button>
+    </div>
+</div>
+
+<dl class="quicklink">
+    <dd title="建议">
+        <a href="https://github.com/tower1229/Flow-ICON/issues" target="_blank">
+            <i class="ion">&#xe637;</i>
+        </a>
+    </dd>
+    <dd class="gotop" title="搜索">
+        <i class="ion">&#xe7da;</i>
+    </dd>
+</dl>
+<footer class="foot">
+    <div>
+        <p>© 2014 - 3014&emsp;Powered By <a href="https://github.com/tower1229/Flow-UI" target="_blank">Flow-UI</a> </p>
+    </div>
+</footer>
+    <script src="/dist/lib/sea.js" id="seajsnode"></script>
+    <script>
+    seajs.use('js/index');
+    </script>
+    <script>
+    //google analysis
+    (function(i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r;
+        i[r] = i[r] || function() {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date();
+        a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0];
+        a.async = 1;
+        a.src = g;
+        m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-33205757-2', 'auto');
+    ga('send', 'pageview');
+    </script>
+</body>
+</html>
