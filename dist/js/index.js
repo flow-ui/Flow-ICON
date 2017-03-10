@@ -60,7 +60,22 @@ define(function(require) {
 			'font-size': $('#filt_size').val() + 'px',
 			'color': $('#filt_color').val()
 		});
-
+		var aLink = $('#_download').get(0);
+		var readyToDownload = function(){
+			aLink.disabled = true;
+			html2canvas($('#mycanvas .htmlIcon').get(0), {
+				onrendered: function(canvas) {
+					if (canvas.toBlob) {
+						canvas.toBlob(function(content) {
+							blob = new Blob([content]);
+							aLink.disabled = false;
+							aLink.href = URL.createObjectURL(blob);
+						}, 'image/png');
+					}
+					return true;
+				}
+			});
+		};
 		//监听	
 		$('.pannel').on('change', 'input', function() {
 			if ($(this).attr('id') == 'filt_size') {
@@ -78,41 +93,21 @@ define(function(require) {
 				});
 
 			}
+			readyToDownload();
 		});
 
 		$.box.open($('.boxToView'), {
 			title: name,
+			bgclose: false,
 			onshow: function() {
-				window.iconName = name;
+				aLink.download = (name + ".png");
+				readyToDownload();
 			},
 			onclose: function() {
 				$('#mycanvas').children().remove();
 			}
 		});
 	};
-
-	$('#_download').on('click', function(e) {
-		e.preventDefault();
-		var aLink = document.createElement('a');
-		var blobArr = [];
-		var blob = null;
-		var evt = document.createEvent("HTMLEvents");
-		evt.initEvent("click", false, false);
-		//下载
-		html2canvas($('#mycanvas .htmlIcon').get(0), {
-			onrendered: function(canvas) {
-				if (canvas.toBlob) {
-					canvas.toBlob(function(content) {
-						blob = new Blob([content]);
-						aLink.download = iconName + ".png";
-						aLink.href = URL.createObjectURL(blob);
-						aLink.dispatchEvent(evt);
-					}, 'image/png');
-				}
-				return true;
-			}
-		});
-	});
 
 	//返回顶部搜索
 	$('.gotop').on('click', function() {

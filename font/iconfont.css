@@ -1,10 +1,10 @@
 
 @font-face {font-family: "iconfont";
-  src: url('iconfont.eot?t=1489047810195'); /* IE9*/
-  src: url('iconfont.eot?t=1489047810195#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url('iconfont.woff?t=1489047810195') format('woff'), /* chrome, firefox */
-  url('iconfont.ttf?t=1489047810195') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('iconfont.svg?t=1489047810195#iconfont') format('svg'); /* iOS 4.1- */
+  src: url('iconfont.eot?t=1489119821105'); /* IE9*/
+  src: url('iconfont.eot?t=1489119821105#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('iconfont.woff?t=1489119821105') format('woff'), /* chrome, firefox */
+  url('iconfont.ttf?t=1489119821105') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('iconfont.svg?t=1489119821105#iconfont') format('svg'); /* iOS 4.1- */
 }
 
 .iconfont {
@@ -23,13 +23,9 @@
 
 .ion-edit:before { content: "\e649"; }
 
-.ion-roundright:before { content: "\e65b"; }
-
 .ion-comment:before { content: "\e66b"; }
 
 .ion-likefill:before { content: "\e66d"; }
-
-.ion-back:before { content: "\e679"; }
 
 .ion-scan:before { content: "\e689"; }
 
@@ -37,19 +33,11 @@
 
 .ion-question:before { content: "\e691"; }
 
-.ion-form:before { content: "\e699"; }
-
 .ion-pic:before { content: "\e69d"; }
-
-.ion-right:before { content: "\e6b1"; }
 
 .ion-refresh:before { content: "\e6b2"; }
 
-.ion-home:before { content: "\e6b8"; }
-
 .ion-cartfill:before { content: "\e6b9"; }
-
-.ion-homefill:before { content: "\e6bc"; }
 
 .ion-message:before { content: "\e6be"; }
 
@@ -59,11 +47,15 @@
 
 .ion-friend:before { content: "\e6cc"; }
 
+.ion-jiantou:before { content: "\e62d"; }
+
 .ion-mobile:before { content: "\e704"; }
 
 .ion-mobilefill:before { content: "\e705"; }
 
 .ion-clothes:before { content: "\e717"; }
+
+.ion-jikediancanicon13:before { content: "\e77b"; }
 
 .ion-baidu:before { content: "\e600"; }
 
@@ -99,11 +91,7 @@
 
 .ion-androidarrowdropleft:before { content: "\e614"; }
 
-.ion-androidarrowdropleftcircle:before { content: "\e615"; }
-
 .ion-androidarrowdropright:before { content: "\e616"; }
-
-.ion-androidarrowdroprightcircle:before { content: "\e617"; }
 
 .ion-androidarrowdropup:before { content: "\e618"; }
 
@@ -132,8 +120,6 @@
 .ion-androidcreate:before { content: "\e637"; }
 
 .ion-androiddelete:before { content: "\e638"; }
-
-.ion-androiddone:before { content: "\e63c"; }
 
 .ion-androidexit:before { content: "\e63f"; }
 
@@ -207,19 +193,7 @@
 
 .ion-chatbubbles:before { content: "\e6a8"; }
 
-.ion-checkmark:before { content: "\e6a9"; }
-
-.ion-chevrondown:before { content: "\e6ab"; }
-
-.ion-chevronleft:before { content: "\e6ac"; }
-
-.ion-chevronright:before { content: "\e6ad"; }
-
-.ion-chevronup:before { content: "\e6ae"; }
-
 .ion-chatbubbleworking:before { content: "\e6af"; }
-
-.ion-close:before { content: "\e6b0"; }
 
 .ion-code:before { content: "\e6b5"; }
 
@@ -241,6 +215,8 @@
 
 .ion-text:before { content: "\e791"; }
 
+.ion-2:before { content: "\e609"; }
+
 .ion-mail:before { content: "\e7bd"; }
 
 .ion-home_light:before { content: "\e7d4"; }
@@ -259,9 +235,5 @@
 
 .ion-refresh_light:before { content: "\e7e0"; }
 
-.ion-back_light:before { content: "\e7e1"; }
-
 .ion-share_light:before { content: "\e7e2"; }
-
-.ion-roundleft:before { content: "\e7dd"; }
 
