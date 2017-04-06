@@ -133,8 +133,8 @@ define(function(require) {
 			});
 			$('#icons').html(html).find('._code').each(function(i, e) {
 				$(e).val($(e).data('code'));
-			});
-			$('.demo li').mousemenu(optSmartMenu, {
+			})
+			.end().find('li').mousemenu(optSmartMenu, {
 				name: "download"
 			});
 			//搜索
@@ -143,7 +143,6 @@ define(function(require) {
 	}).always(function() {
 		$.box.hide(globalLoading);
 	});
-
 
 
 });
