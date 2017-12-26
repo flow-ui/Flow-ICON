@@ -1,17 +1,17 @@
-<br />
 
-### Flow-Icon
-
-Flow-ICON是Flow-UI默认采用的图标库。
+# Flow-Icon
 
 [![GitHub release](https://img.shields.io/github/release/tower1229/Flow-Icon.svg)]() [![license](https://img.shields.io/github/license/tower1229/Flow-Icon.svg)]()
 
-### 演示
+> Flow-ICON是Flow-UI默认采用的图标库。
 
-预览：[preview](http://refined-x.com/Flow-ICON/dist/)
+# 主页
 
-## 更多
+[HomePage](http://refined-x.com/Flow-ICON/dist/)
 
-> [前端路上](http://refined-x.com)
 
-<br /><br />
+## 许可证
+
+[MIT](http://opensource.org/licenses/MIT)
+
+Copyright (c) 2017-present, [前端路上](http://refined-x.com)
