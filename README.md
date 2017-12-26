@@ -7,7 +7,7 @@
 
 # 主页
 
-[HomePage](http://refined-x.com/Flow-ICON/dist/)
+[HomePage](http://flow-ui.refined-x.com/Flow-ICON/)
 
 
 ## 许可证
